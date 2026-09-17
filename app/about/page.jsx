@@ -173,12 +173,12 @@ export default function AboutPage() {
           <div className="mx-auto grid max-w-[1280px] gap-14 lg:grid-cols-2 lg:items-center">
 
             {/* Image */}
-            <SlideInLeft className="relative h-[420px] border border-[#DCC8A9] lg:h-[560px]">
+            <SlideInLeft className="relative h-[420px] border border-[#DCC8A9] lg:h-[580px]">
               <Image
-                src="/images/story.jpg"
+                src="/images/about4.jpeg"
                 alt="Jaipur Artisan at Work"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
               <span className="absolute -bottom-3 -right-3 h-16 w-16 border-b-2 border-r-2 border-[#B88A4A]" />
               <span className="absolute -left-3 -top-3 h-16 w-16 border-l-2 border-t-2 border-[#B88A4A]" />

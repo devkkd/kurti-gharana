@@ -17,9 +17,9 @@ const contactInfo = [
       </svg>
     ),
     label: "Phone",
-    value: "+91 98765 43210",
+    value: "+91-9784562130",
     sub: "Mon – Sat, 10am – 7pm IST",
-    href: "tel:+919876543210",
+    href: "tel:+919784562130",
   },
   {
     icon: (
@@ -29,9 +29,9 @@ const contactInfo = [
       </svg>
     ),
     label: "Email",
-    value: "care@kurtigharana.com",
+    value: "jaipurkurtigharana@gmail.com",
     sub: "We reply within 24 hours",
-    href: "mailto:care@kurtigharana.com",
+    href: "mailto:jaipurkurtigharana@gmail.com",
   },
   {
     icon: (
@@ -41,8 +41,8 @@ const contactInfo = [
       </svg>
     ),
     label: "Visit Us",
-    value: "Johri Bazaar, Jaipur",
-    sub: "Rajasthan 302003, India",
+    value: "Plot No-6, Aaykar Nagar-II,",
+    sub: " New Sanganer Rd, near Ricco Kanta Choraha, Mansarovar, Jaipur Rajasthan 302003, India",
     href: "https://maps.google.com",
   },
   {
@@ -207,7 +207,7 @@ function ContactForm() {
             type="tel"
             value={formData.phone}
             onChange={handleChange}
-            placeholder="+91 98765 43210"
+            placeholder="+91-9784562130"
             className="w-full border border-[#DCC8A9] bg-[#FCF7EF] px-4 py-3 font-sans text-[13px] text-[#2D2521] placeholder:text-[#756A63]/50 outline-none transition focus:border-[#B88A4A] focus:ring-1 focus:ring-[#B88A4A]/30"
           />
         </div>
@@ -411,8 +411,8 @@ export default function ContactPage() {
                     Our Studio
                   </p>
                   <p className="mt-2 font-sans text-[12px] leading-5 text-[#756A63]">
-                    Johri Bazaar, Near Hawa Mahal
-                    <br />
+                   Plot No-6, Aaykar Nagar-II, New Sanganer Rd, near Ricco Kanta Choraha, Mansarovar,
+                    
                     Jaipur, Rajasthan 302003
                   </p>
                   <a
@@ -464,7 +464,7 @@ export default function ContactPage() {
 
               {/* WhatsApp CTA */}
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919784562130"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 border border-[#DCC8A9] bg-[#FCF7EF] p-6 transition hover:shadow-[0_4px_20px_rgba(116,29,41,0.08)]"
@@ -520,7 +520,7 @@ export default function ContactPage() {
             <p className="mt-8 text-center font-sans text-[12px] text-[#756A63]">
               Still have questions?{" "}
               <a
-                href="mailto:care@kurtigharana.com"
+                href="mailto:jaipurkurtigharana@gmail.com"
                 className="border-b border-[#741D29] pb-0.5 text-[#741D29]"
               >
                 Email us directly

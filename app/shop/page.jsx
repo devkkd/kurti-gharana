@@ -151,7 +151,7 @@ function ShopProductCard({ product }) {
           </div>
 
           <a
-            href={`https://wa.me/919876543210?text=${enquiryMsg}`}
+            href={`https://wa.me/919784562130?text=${enquiryMsg}`}
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-[10px] font-medium uppercase tracking-wider text-[#741D29] transition hover:text-[#B88A4A]"
@@ -500,7 +500,7 @@ export default function ShopPage() {
                 </p>
               </div>
               <a
-                href="https://wa.me/919876543210?text=Hi%2C%20I%20am%20interested%20in%20a%20bulk%20order."
+                href="https://wa.me/919784562130?text=Hi%2C%20I%20am%20interested%20in%20a%20bulk%20order."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 bg-[#741D29] px-7 py-3.5 font-sans text-[12px] font-medium text-white transition hover:bg-[#5A1721]"

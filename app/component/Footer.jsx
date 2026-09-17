@@ -11,7 +11,7 @@ export default function Footer() {
         <div>
 
           <Image
-            src="/images/logo.png"
+            src="/images/logo-1.png"
             alt="Kurti Gharana"
             width={150}
             height={100}
@@ -73,8 +73,8 @@ export default function Footer() {
 
           <div className="space-y-3 text-[11px] text-[#756A63]">
 
-            <p>+91 98765 43210</p>
-            <p>care@kurtigharana.com</p>
+            <p>+91-9784562130</p>
+            <p>jaipurkurtigharana@gmail.com</p>
             <p>Jaipur, Rajasthan, India</p>
 
           </div>
@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-5 text-[10px] text-[#756A63] lg:px-10">
 
           <p>
-            © 2026 Kurti Gharana. All rights reserved.
+            © 2026 Kurti Gharana. Crafted and Powered by <Link href="https://www.kontentkraftdigital.com/" target="_blank" >Kontent Kraft Digital.</Link>
           </p>
 
           <div className="flex gap-5">

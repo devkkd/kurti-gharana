@@ -9,7 +9,7 @@ export default function ProductCard({ product }) {
   );
 
   const whatsappUrl =
-    `https://wa.me/919876543210?text=${enquiryMessage}`;
+    `https://wa.me/919784562130?text=${enquiryMessage}`;
 
   return (
     <div className="group border border-[#DCC8A9] bg-[#F9F1E5]">
