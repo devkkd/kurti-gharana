@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #f9f1e5;
+  --cream-light: #fcf7ef;
+  --maroon: #741d29;
+  --maroon-dark: #5a1721;
+  --gold: #b88a4a;
+  --gold-light: #d6b47a;
+  --text: #2d2521;
+  --muted: #756a63;
+  --border: #dcc8a9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream-light);
+  color: var(--text);
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-cormorant), serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
