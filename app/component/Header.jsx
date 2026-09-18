@@ -23,20 +23,7 @@ const navItems = [
       { label: "Handcrafted Prints",href: "/shop?category=Handcrafted+Prints" },
     ],
   },
-  {
-    label: "Collections",
-    href: "/shop",
-    dropdown: [
-      { label: "Cotton Suits",              href: "/collections/everyday-kurtis" },
-      { label: "Pant Sets",                 href: "/collections/festive-edit" },
-      { label: "Co-ord Sets",               href: "/collections/handcrafted-prints" },
-      { label: "Anarkali Dupatta Sets",     href: "/shop" },
-    ],
-  },
-  {
-    label: "Festive Edit",
-    href: "/shop?category=Festive+Edit",
-  },
+  
   {
     label: "About Us",
     href: "/about",

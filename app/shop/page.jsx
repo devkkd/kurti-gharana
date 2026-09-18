@@ -95,12 +95,12 @@ function ShopProductCard({ product }) {
           </span>
         )}
 
-        <button
+        {/* <button
           aria-label="Add to wishlist"
           className="absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-[#FCF7EF]/90 text-[#741D29] transition hover:bg-[#741D29] hover:text-white"
         >
           ♡
-        </button>
+        </button> */}
 
         <Image
           src={product.image}
@@ -127,7 +127,7 @@ function ShopProductCard({ product }) {
         </div>
 
         {/* Price row */}
-        <div className="mt-2 flex items-baseline gap-2">
+        {/* <div className="mt-2 flex items-baseline gap-2">
           <span className="font-sans text-[14px] font-medium text-[#741D29]">
             {product.price}
           </span>
@@ -136,11 +136,11 @@ function ShopProductCard({ product }) {
               {product.originalPrice}
             </span>
           )}
-        </div>
+        </div> */}
 
         {/* Colors + CTA */}
         <div className="mt-3 flex items-center justify-between">
-          <div className="flex gap-1.5">
+          {/* <div className="flex gap-1.5">
             {product.colors?.map((color, i) => (
               <span
                 key={i}
@@ -148,7 +148,7 @@ function ShopProductCard({ product }) {
                 style={{ backgroundColor: color }}
               />
             ))}
-          </div>
+          </div> */}
 
           <a
             href={`https://wa.me/919784562130?text=${enquiryMsg}`}
@@ -284,11 +284,11 @@ export default function ShopPage() {
             >
               {collections.map((col) => (
                 <StaggerChild key={col.id} distance={24}>
-                  <Link
+                  {/* <Link
                     href={col.href}
                     className="group relative overflow-hidden border border-[#DCC8A9]"
-                  >
-                    <div className="relative aspect-[1.1] w-full">
+                  > */}
+                    <div className="relative aspect-[0.8] w-full">
                       <Image
                         src={col.image}
                         alt={col.title}
@@ -306,12 +306,12 @@ export default function ShopPage() {
                         <p className="mt-1 font-sans text-[9px] uppercase tracking-[0.15em] text-[#D6B47A]">
                           {col.subtitle}
                         </p>
-                        <span className="mt-2 font-sans text-[10px] text-white/80 transition group-hover:text-[#D6B47A]">
+                        {/* <span className="mt-2 font-sans text-[10px] text-white/80 transition group-hover:text-[#D6B47A]">
                           Shop Now →
-                        </span>
+                        </span> */}
                       </div>
                     </div>
-                  </Link>
+                  {/* </Link> */}
                 </StaggerChild>
               ))}
             </StaggerParent>
@@ -358,7 +358,7 @@ export default function ShopPage() {
                 </button>
 
                 {/* Sort dropdown */}
-                <select
+                {/* <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                   className="border border-[#DCC8A9] bg-[#FCF7EF] px-4 py-2.5 font-sans text-[11px] text-[#741D29] outline-none focus:border-[#B88A4A]"
@@ -375,7 +375,7 @@ export default function ShopPage() {
                       Sort: {o.label}
                     </option>
                   ))}
-                </select>
+                </select> */}
               </div>
             </div>
 
@@ -423,7 +423,7 @@ export default function ShopPage() {
                   <div className="my-6 h-px bg-[#DCC8A9]" />
 
                   {/* Price range note */}
-                  <p className="mb-3 font-sans text-[10px] uppercase tracking-[0.25em] text-[#B88A4A]">
+                  {/* <p className="mb-3 font-sans text-[10px] uppercase tracking-[0.25em] text-[#B88A4A]">
                     Price Range
                   </p>
                   <p className="font-sans text-[12px] text-[#756A63]">
@@ -431,7 +431,7 @@ export default function ShopPage() {
                   </p>
                   <div className="mt-3 h-1 w-full rounded-full bg-[#DCC8A9]">
                     <div className="h-1 w-3/4 rounded-full bg-[#741D29]" />
-                  </div>
+                  </div> */}
 
                 </div>
               </aside>

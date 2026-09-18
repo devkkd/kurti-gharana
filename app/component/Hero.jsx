@@ -62,12 +62,12 @@ export default function Hero() {
                 Explore Collection →
               </Link>
 
-              <Link
+              {/* <Link
                 href="/collections"
                 className="border-b border-[#741D29] pb-1 text-[12px] font-medium text-[#741D29]"
               >
                 Explore Styles
-              </Link>
+              </Link> */}
             </motion.div>
 
             {/* Divider motif */}
